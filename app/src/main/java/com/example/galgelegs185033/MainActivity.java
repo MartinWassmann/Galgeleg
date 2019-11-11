@@ -153,14 +153,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(R.id.buttonStart == v.getId()) {
             spil.nulstil();
             TV.setText(spil.getSynligtOrd());
-            spil.logStatus();
             Galge.setImageResource(R.drawable.galge);
             antalForkerte = 0;
         }
 
         else if (R.id.buttonA == v.getId()) {
             spil.gætBogstav("a");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("a")) {
                 TV.setText(spil.getSynligtOrd());
@@ -170,7 +168,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonB == v.getId()) {
             spil.gætBogstav("b");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("b")) {
                 TV.setText(spil.getSynligtOrd());
@@ -179,7 +176,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonC == v.getId()) {
             spil.gætBogstav("c");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("c")) {
                 TV.setText(spil.getSynligtOrd());
@@ -188,7 +184,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonD == v.getId()) {
             spil.gætBogstav("D");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("d")) {
                 TV.setText(spil.getSynligtOrd());
@@ -197,7 +192,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonE == v.getId()) {
             spil.gætBogstav("e");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("e")) {
                 TV.setText(spil.getSynligtOrd());
@@ -206,7 +200,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonF == v.getId()) {
             spil.gætBogstav("f");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("f")) {
                 TV.setText(spil.getSynligtOrd());
@@ -215,7 +208,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonG == v.getId()) {
             spil.gætBogstav("g");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("g")) {
                 TV.setText(spil.getSynligtOrd());
@@ -224,7 +216,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonH == v.getId()) {
             spil.gætBogstav("h");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("h")) {
                 TV.setText(spil.getSynligtOrd());
@@ -233,7 +224,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonI == v.getId()) {
             spil.gætBogstav("i");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("i")) {
                 TV.setText(spil.getSynligtOrd());
@@ -242,7 +232,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonJ == v.getId()) {
             spil.gætBogstav("j");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("j")) {
                 TV.setText(spil.getSynligtOrd());
@@ -251,7 +240,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonK == v.getId()) {
             spil.gætBogstav("k");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("k")) {
                 TV.setText(spil.getSynligtOrd());
@@ -260,7 +248,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonL == v.getId()) {
             spil.gætBogstav("l");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("l")) {
                 TV.setText(spil.getSynligtOrd());
@@ -269,7 +256,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonM == v.getId()) {
             spil.gætBogstav("m");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("m")) {
                 TV.setText(spil.getSynligtOrd());
@@ -278,7 +264,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonN == v.getId()) {
             spil.gætBogstav("n");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("n")) {
                 TV.setText(spil.getSynligtOrd());
@@ -287,7 +272,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonO == v.getId()) {
             spil.gætBogstav("o");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("o")) {
                 TV.setText(spil.getSynligtOrd());
@@ -296,7 +280,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonP == v.getId()) {
             spil.gætBogstav("p");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("p")) {
                 TV.setText(spil.getSynligtOrd());
@@ -305,7 +288,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonQ == v.getId()) {
             spil.gætBogstav("q");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("q")) {
                 TV.setText(spil.getSynligtOrd());
@@ -314,7 +296,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonR == v.getId()) {
             spil.gætBogstav("r");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("r")) {
                 TV.setText(spil.getSynligtOrd());
@@ -323,7 +304,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonS == v.getId()) {
             spil.gætBogstav("s");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("s")) {
                 TV.setText(spil.getSynligtOrd());
@@ -332,7 +312,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonT == v.getId()) {
             spil.gætBogstav("t");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("t")) {
                 TV.setText(spil.getSynligtOrd());
@@ -341,7 +320,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonU == v.getId()) {
             spil.gætBogstav("u");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("u")) {
                 TV.setText(spil.getSynligtOrd());
@@ -350,7 +328,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonV == v.getId()) {
             spil.gætBogstav("v");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("v")) {
                 TV.setText(spil.getSynligtOrd());
@@ -359,7 +336,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonX == v.getId()) {
             spil.gætBogstav("x");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("x")) {
                 TV.setText(spil.getSynligtOrd());
@@ -368,7 +344,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonY == v.getId()) {
             spil.gætBogstav("y");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("y")) {
                 TV.setText(spil.getSynligtOrd());
@@ -377,7 +352,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonZ == v.getId()) {
             spil.gætBogstav("z");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("z")) {
                 TV.setText(spil.getSynligtOrd());
@@ -386,7 +360,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonAE == v.getId()) {
             spil.gætBogstav("æ");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("æ")) {
                 TV.setText(spil.getSynligtOrd());
@@ -395,7 +368,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonOE == v.getId()) {
             spil.gætBogstav("ø");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("ø")) {
                 TV.setText(spil.getSynligtOrd());
@@ -404,7 +376,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if (R.id.buttonAA == v.getId()) {
             spil.gætBogstav("å");
-            spil.logStatus();
 
             if (spil.getOrdet().contains("å")) {
                 TV.setText(spil.getSynligtOrd());
