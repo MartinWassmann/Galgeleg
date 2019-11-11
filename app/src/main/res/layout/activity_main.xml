@@ -307,7 +307,7 @@
         android:id="@+id/buttonVelkommen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Velkommen"
+        android:text="Galgeleg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
